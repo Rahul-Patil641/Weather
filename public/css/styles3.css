@@ -1,0 +1,50 @@
+body{
+    background-image: url('image3.jpg');
+    background-size: 1260px 560px;
+}
+.Hello{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+}
+.weather-input-form{
+    background-image: url("https://i.imgur.com/dpqZJV5.jpg");
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #9E9E9E;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.weather-update-form{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#date{
+    font-family: 'Lora', serif;
+    color: wheat;
+    
+    padding-left: 20px;
+}
+#day{
+    font-family: 'Lora', serif;
+    color: wheat;
+    padding-top: 10px;
+    padding-left: 20px; 
+}
+.Updated{
+    
+    padding-top: 40px;
+    margin-left: 30px;
+    font-family: 'Lora', serif;
+    color: lavender;
+}
+
+.button{
+    margin-left: 270px;
+    margin-top: 50px;
+}

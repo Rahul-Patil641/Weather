@@ -1,0 +1,56 @@
+body{
+    background-image: url('image3.jpg');
+    background-size: 1260px 560px;
+}
+.Hello{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+}
+.weather-input-form{
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #9E9E9E;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#date{
+    font-family: 'Lora', serif;
+    color: wheat;
+    
+    padding-left: 20px;
+}
+#day{
+    font-family: 'Lora', serif;
+    color: wheat;
+    padding-top: 10px;
+    padding-left: 20px; 
+}
+.temperature-heading{
+    font-family: 'Domine', serif;
+    font-size: 60px;
+    color: whitesmoke;
+    margin-top: 80px;
+}
+.weather-template{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.temperature{
+    padding: 80px;
+}
+.other-factors{
+    padding-top: 93px;
+    padding-left: 20px;
+}
+.a{
+    color: whitesmoke;
+    margin-bottom: 2px;
+    font-family: 'Domine', serif;
+    margin-left: 20px;
+}

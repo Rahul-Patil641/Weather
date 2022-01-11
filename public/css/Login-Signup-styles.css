@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('image.jpg');
+  background-repeat: repeat;
+  background-size: 1260px 560px;
+  height: 100vh;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 350px;
+  border-radius: 10px;
+}
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid grey;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.text-field{
+  position: relative;
+  margin: 40px 0;
+  border-bottom: 1px solid #adadad;
+}
+.text-field input{
+  width: 100%;
+  border: none;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+  background: none;
+}
+.text-field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #adadad;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.text-field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #2691d9;
+}
+.pass{
+  padding:  0 0 20px 10px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+
+}
+
+.text-field input:focus ~ label,
+.text-field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+
+.Login-button{
+  width: 100%;
+  height: 40px;
+  background: #2691d9;
+  color: #FEF9EF;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+.Login-button:hover{
+  border-color: #2691d9;
+  transition: .3s;
+
+}
+
+.signup-link{
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #66666;
+}
+
+.Signup-button{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  background: #2691d9;
+  color: #FEF9EF;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+.Signup-button:hover{
+  border-color: #2691d9;
+  transition: .3s;
+}
+.signup-link a{
+  color: #2691d9;
+  text-decoration: none;
+}
+.signup-link a:hover{
+  text-decoration: underline;
+}
